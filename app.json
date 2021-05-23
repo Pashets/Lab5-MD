@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MobileDevelopment",
+    "slug": "MobileDevelopment",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo-icon.png",
+    "splash": {
+      "image": "./assets/logo-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "light"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo-icon.png"
+    }
+  }
+}
